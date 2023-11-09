@@ -20,7 +20,7 @@ function CardCategorias({ categoria }: CardCategoriasProps) {
           className="w-full text-slate-100 bg-purple-700 hover:bg-purple-800 
                         flex items-center justify-center py-2"
         >
-          <button>Editar</button>
+          <button>Atualizar</button>
         </Link>
 
         <Link

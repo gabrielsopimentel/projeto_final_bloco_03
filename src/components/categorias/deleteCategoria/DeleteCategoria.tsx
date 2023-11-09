@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 
-import { buscar, deletar } from "../../../services/service";
+import { buscar, deletar } from "../../../services/Service";
 
 import Categoria from "../../../models/Categoria";
 import { RotatingLines } from "react-loader-spinner";
