@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <>
       <div
-        className="w-full bg-indigo-900 text-white
+        className="w-full bg-slate-500 text-white
                 flex justify-center py-4"
       >
         <div className="container flex justify-between text-lg">
@@ -15,12 +15,6 @@ function Navbar() {
             </Link>
             <Link to="/cadastrarCategoria" className="hover:underline">
               Cadastrar
-            </Link>
-            <Link to="/editarCategoria" className="hover:underline">
-              Atualizar
-            </Link>
-            <Link to="/deletarCategoria" className="hover:underline">
-              Deletar
             </Link>
           </div>
         </div>
