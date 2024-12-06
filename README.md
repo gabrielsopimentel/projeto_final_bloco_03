@@ -1,27 +1,49 @@
-# React + TypeScript + Vite
+# Blog Pessoal - Frontend  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é o frontend da aplicação **Blog Pessoal** proposto pela **Generation**, desenvolvido com **React** utilizando o bundler **Vite** para maior performance no desenvolvimento.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Funcionalidades  
 
-## Expanding the ESLint configuration
+### Recurso Categoria  
+- Listar todas as categorias.  
+- Criar novas categorias.  
+- Editar categorias existentes.  
+- Remover categorias.  
+- Filtrar categorias pelo atributo **Tipo**.  
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Recurso Produto  
+- Listar todos os produtos.  
+- Criar novos produtos.  
+- Editar produtos existentes.  
+- Remover produtos.  
+- Filtrar produtos pelo atributo **Nome**.  
 
-- Configure the top-level `parserOptions` property like this:
+---
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+## Tecnologias Utilizadas  
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- **React**: Biblioteca para construção da interface do usuário.  
+- **Vite**: Ferramenta de build rápida e moderna para React.  
+- **Axios**: Para consumo da API.  
+- **React Router DOM**: Gerenciamento de rotas.  
+- **Bootstrap/Tailwind CSS**: (Opcional) Para estilização e responsividade.  
+
+---
+
+## Estrutura do Projeto  
+
+### Diretórios Principais  
+- **src**: Contém todos os arquivos do frontend.  
+  - **components**: Componentes reutilizáveis da aplicação.  
+  - **pages**: Páginas principais, como `Categorias` e `Produtos`.  
+  - **services**: Configuração de Axios para consumo da API.  
+  - **styles**: Estilos globais e temas.  
+
+### Organização do Código  
+- **components/Header.jsx**: Componente do cabeçalho.  
+- **components/Footer.jsx**: Componente do rodapé.  
+- **pages/Categorias.jsx**: Página de gerenciamento de categorias.  
+- **pages/Produtos.jsx**: Página de gerenciamento de produtos.  
+- **services/api.js**: Configuração do Axios para requisições HTTP.  
